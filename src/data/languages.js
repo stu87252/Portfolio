@@ -16,7 +16,7 @@ export default [
     {
         id: 2,
         name: 'PHP',
-        projects: ['YoutubeReplica', 'TRELLIUM',],
+        projects: ['YoutubeReplica', 'TRELLIUM', 'Skiter'],
         reason_eng: 'PHP is also one of my favorites, nearly all of my crud-applications are built using PHP. I use it mostly for database or API connection.',
         reason_nl: 'PHP is ook een van mijn favoriete codeertalen, bijna al mijn crud-applicaties zijn gebouwd met behulp van PHP. Ik gebruik het meestal voor database of API connecties.',
     },
@@ -29,9 +29,9 @@ export default [
     },
     {
         id: 4,
-        name: 'Python',
-        projects: ['Personal projects'],
-        reason_eng: 'Python is a language which I learnt via tutorials on Youtube and other websites. I like using the language but have not used it a lot.',
-        reason_nl: 'Python is een codeertaal die ik mezelf heb aangeleerd via videos op Youtube en andere websites. Ik vind het leuk om deze taal te gebruiken maar doe dat niet vaak.',
+        name: 'Laravel',
+        projects: ['Skiter'],
+        reason_eng: 'Although i mostly focused on the front-end of the website. I liked working with Laravel and definitely would do it again!',
+        reason_nl: 'Ik heb Laravel gebruikt in het bouwen van een twitter-like applicatie genaamd Skiter. Na dit project heb ik nog geen nieuw Laravel project gestart.',
     }
 ]

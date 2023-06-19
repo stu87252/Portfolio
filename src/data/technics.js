@@ -73,9 +73,9 @@ export default [
         desc_nl: `
             Laravel is een PHP web framework. Het framework helpt je met het bouwen van MVC platforms door het geven van een basis en het opzetten van een aantal standaard routes.
         `,
-        projects: ['Not used'],
-        reason_eng: 'I do not have a lot of experience with Laravel, but i would like to learn more about it.',
-        reason_nl: 'Ik heb niet veel ervaring met Laravel, maar wil er graag meer van leren.',
+        projects: ['Skiter'],
+        reason_eng: 'I have used Laravel in building a twitter-like application named Skiter. Have not used it in any other projects.',
+        reason_nl: 'Hoewel ik me voornamelijk richtte op de front-end van de website, vond ik het prettig om met Laravel te werken en zou het zeker opnieuw doen!',
     },
     {
         id: 8,
