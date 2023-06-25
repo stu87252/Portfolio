@@ -33,7 +33,7 @@ for(let i=0; i<projects.length; i++) {
             <div class="gap-8 items-center py-8 px-2 mx-auto max-w-screen-xl xl:gap-8 md:grid md:grid-cols-2 sm:py-12 lg:px-0">
                 <div>
                     <img class="w-full rounded-xl" draggable="false" .src="projects[projectNumber].imgURL" alt="Project image">
-                    <p class=" font-light text-center text-gray-400 mt-4">{{ projects[projectNumber].timeframe_start }} - {{ projects[projectNumber].timeframe_end }} | {{ projects[projectNumber].client }}</p>
+                    <p class=" font-light text-center text-gray-400 mt-4">{{ projects[projectNumber].timeframe_start }} - {{ projects[projectNumber].timeframe_end }} | {{ projects[projectNumber].client }} | <a class="hover:underline" .href=projects[projectNumber].appUrl>View project</a></p>
                 </div>
                 <div class="mt-4 md:mt-0">
                     <h2 class="mb-4 text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-[#0DFC30] to-[#6ACCBE]">{{ projects[projectNumber].slogan }}</h2>
@@ -45,6 +45,9 @@ for(let i=0; i<projects.length; i++) {
                     <li class="text-gray-400 font-light pb-8" v-for="language in projects[projectNumber].languages">{{ language }}</li>
                 </div>
             </div>
+        </section>
+        <section class="w-full h-screen bg-red-600">
+        
         </section>
     </div>
 </template>

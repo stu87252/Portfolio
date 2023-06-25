@@ -22,7 +22,7 @@
                 </div>
             <div class=" h-28 flex items-center justify-center font-normal text-center text-white">
             <p class="w-3/5">
-            Please feel free to contact me for any inquiries or questions. I am available via email or phone and will respond promptly. Let's connect and discuss how I can assist you. Looking forward to hearing from you soon!
+            Please feel free to contact me for any inquiries or questions. I am available via email or phone and will respond promptly. Looking forward to hearing from you soon!
             </p>
             </div>
             <div class=" h-80 gap-24 p-4 grid grid-cols-2">

@@ -5,6 +5,7 @@ import About from "@/views/About.vue"
 import Projects from "@/views/Projects.vue"
 import Projects_info from "@/views/projects_information.vue"
 import contact from "@/views/contact.vue"
+import notFound from "@/views/notFound.vue"
 
 import PageNotFound from "@/views/PageNotFound.vue"
 
@@ -25,7 +26,7 @@ const routes = [
         component: Projects,
     },
     {
-        path: '/view/:code',
+        path: '/projects/:code',
         name: 'info',
         component: Projects_info,
     },
@@ -33,6 +34,11 @@ const routes = [
         path: '/contact',
         name: 'Contact',
         component: contact,
+    },
+    {
+        path: '/notfound',
+        name: 'notFound',
+        component: notFound,
     },
     {
         path: "/:catchAll(.*)",

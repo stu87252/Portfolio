@@ -26,7 +26,7 @@
       </p>
     </div>
 
-    <div class="grid grid-cols-1 mt-12 text-center sm:mt-16 gap-x-20 gap-y-24 sm:grid-cols-2 lg:grid-cols-3">
+    <div class="grid grid-cols-1 mt-12 text-center sm:mt-16 text-center lg-text-left gap-x-20 gap-y-24 sm:grid-cols-2 lg:grid-cols-3">
       <div class="space-y-4 border-b border-gray-200 md:border-none" v-for="project in projects">
         <span
           class="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">

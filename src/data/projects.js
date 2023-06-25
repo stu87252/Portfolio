@@ -55,13 +55,18 @@ export default [
     timeframe_start: "20-11-2022",
     timeframe_end: "23-12-2022",
     languages: ["PHP", "SQL", "JavaScript"],
+    info: {
+      
+    }
   },
   {
     project_id: 2,
     name: "Jexca",
+    appUrl: "/notFound",
     imgURL:
       "https://jirzy.157-97-110-208.plesk.page/Portfolio/images/Jexca.png",
-    slogan: "Capture, Connect, and Customize with Jexca Your Ultimate Picture Sharing Destination!",
+    slogan:
+      "Capture, Connect, and Customize with Jexca Your Ultimate Picture Sharing Destination!",
     description_eng: `
       Jexca is a powerful and dynamic web application that allows users to upload pictures, comment on other people's pictures, and manage their account information, all from one convenient platform. This project is built using VueJS, a modern JavaScript framework, and is connected to a database via PHP, ensuring that user data is stored securely and efficiently.
 
@@ -83,7 +88,7 @@ export default [
     client: "Grafisch Lyceum Rotterdam",
     timeframe_start: "06-03-2023",
     timeframe_end: "16-04-2023",
-    languages: ["VueJS", "HTML", "PHP", "TailwindCSS"],
+    languages: ["VueJS", "PHP", "TailwindCSS"],
   },
   {
     project_id: 3,
@@ -112,7 +117,7 @@ export default [
     name: "Skiter",
     appUrl: "https://expositie.dylandejonge.157-97-110-208.plesk.page/",
     imgURL:
-        "https://jirzy.157-97-110-208.plesk.page/Portfolio/images/Skiter.png",
+      "https://jirzy.157-97-110-208.plesk.page/Portfolio/images/Skiter.png",
     slogan: "Express, Connect, Share SKITER",
     description_eng: `
         Discover the ultimate image sharing experience through our cutting-edge web application built with Laravel. Seamlessly upload, showcase, and organize your favorite images with ease. With the ability to add titles and short descriptions, you can provide context and capture the essence of each image.
