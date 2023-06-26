@@ -38,7 +38,7 @@
         </h3>
         </router-link>
         <p class="text-lg font-normal text-gray-500 dark:text-gray-400">
-          {{ project.description_eng_short }}
+          {{ project.description_nl_short }}
         </p>
         <router-link :to="{name: 'info', params: {code: project.name} }"
           class="hover:text-[#0DFC30] text-white transition duration-300 bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
